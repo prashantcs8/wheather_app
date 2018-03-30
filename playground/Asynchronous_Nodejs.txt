@@ -1,0 +1,77 @@
+Asynchronous Node.js (Weather App)
+
+---Asynchronous programming Model----
+
+
+---call stack and event loop ---
+call stack -
+call stack is part of v8 for our syncronous example
+
+call stack simple data structure that keeps track of program execution inside of the v8
+
+It keeps track of the functions currently executing and the statement that are fired.
+
+call stack really simple data structure that can do thing
+1 u can add something on the top of it 
+2nd u can remove the top item (example tenis ball)
+
+1st ball then 2nd, 2nd remove then 1st     |	2	|
+											--------
+										   |	1	|
+										    --------	  
+var x = 1;
+var y = x + 9;
+console.log(`y is $(y)`);
+
+
+node run main() by v8
+var x = 1;
+once it done we can remove it and move to next
+and make variable y var y = x + 9;
+then console.log prints y 
+and removed
+at this point all program statement execution complete and main() is running 
+
+
+------google map api---
+https://maps.googleapis.com/maps/api/geocode/json?key=value&keytwo=valuetwo
+https://maps.googleapis.com/maps/api/geocode/json?address=1301 lombard street philadelphia
+https://maps.googleapis.com/maps/api/geocode/json?address=1301%20lombard%20street%20philadelphia
+
+map api key - AIzaSyAEWiw0gf5uly3SltWibEc2CJPMkykiLdI
+
+
+---pretty printing object---
+console.log(JSON.stringify(body, undefined, 2));
+
+
+
+2 types of error 
+1 : machine error like unable to connect network shown in error object
+2 : error form other like google server
+
+
+Diving into ESLint
+
+----abstracting callbacks---
+
+forecast.io
+https://darksky.net/dev/account
+prashant.cs053@gmail.com
+myapp1089
+
+
+api key 69ad645a4d448801cb654bb72a8d702c
+
+
+
+https://api.darksky.net/forecast/[key]/[latitude],[longitude]
+
+
+----ES6 promises---
+solve async problem
+manage async computation
+
+
+npm axios - Promise based HTTP client for the browser and node.js
+
